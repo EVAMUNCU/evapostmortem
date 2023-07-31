@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Chomsky';
+    src: url('./etc/chomsky.woff2') format('woff');
+}
+
+@font-face {
+    font-family: 'ring';
+    src: url('./etc/ring.ttf');
+}
+
+@font-face {
+    font-family: 'blackchancery';
+    src: url('./etc/blackchancery.ttf');
+}
+
+#textocabecera {
+    font-family: 'Chomsky';
+    color: #f00;
+    text-align: center;
+    font-size: 500%;
+    line-height: 50%;
+}
+
+/*#cabecera {
+    font-family: 'Chomsky';
+    color: #f00;
+    text-align: center;
+    font-size: 300%;
+    line-height: 50%;
+}*/
+
+#textosubcabecera {
+    font-family: 'ring';
+    color: #fff;
+    text-align: center;
+    font-size: 250%;
+    line-height: 0%;
+}
+
+body {
+    background-image: url('./img/fondo1blur.jpg');
+    background-repeat: no-repeat;
+    background-size: cover cover;
+    background-position: center center;
+    background-color: #000000;
+    color: #fff;
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'ring', bold;
+    color: #f00;
+}
+
+a {
+    color: #f00;
+    text-decoration: none;
+  }
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p, ul {
+    font-family: 'blackchancery';
+    letter-spacing: 10%;
+    word-spacing: 10%;
+    font-size: 130%;
+}
+
+hr {
+    background-image: url('./img/separador.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 70px;
+    font-size: 125%;
+}
+
+.center-nav {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+}
